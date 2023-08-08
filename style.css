@@ -12,16 +12,18 @@ body {
 .card {
     border-radius: 2rem;
     text-align: center;
-    margin: 2rem auto;
+    margin: 3rem auto;
     background-color: white;
     padding: 1rem 1rem 2rem 1rem;
-    position: absolute;
+    max-width: fit-content;
+    min-width: fit-content;
 }
 
 
 .card img {
-    position: relative;
     border-radius: 2rem;
+    max-width: 18rem;
+    max-height: 18rem;
 }
 
 .card__text {
@@ -36,7 +38,7 @@ body {
 }
 
 footer {
-    margin-bottom: 10%;
+    text-align: center;
 }
 
 
@@ -47,7 +49,6 @@ footer {
         margin-top: 9.37rem;
         margin-left: 32rem;
         margin-right: 32rem;
-        max-width: 20rem;
         padding: 1rem;
     }
 
