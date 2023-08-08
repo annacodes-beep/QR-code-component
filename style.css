@@ -27,7 +27,10 @@ body {
 }
 
 .card__text {
-
+    text-align: center;
+    max-width: 15.18rem;
+    padding: inherit;
+    }
 }
 
 .card h1 {
@@ -61,6 +64,9 @@ footer {
 
     .card__text {
         text-align: center;
+        max-width: 15.18rem;
+        padding: inherit;
+    }
     }
 
 }
