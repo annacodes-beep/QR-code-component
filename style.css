@@ -70,8 +70,11 @@ footer {
         max-width: 15.18rem;
         padding: inherit;
     }
-    }
 
+    footer {
+        display: none;
 }
+
+
 
 
